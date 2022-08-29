@@ -11,9 +11,6 @@ Bei diesem Lernauftrag habe ich gelernt, wie man Benutzereingaben während einer
 
 ## Beschreibung
 
-
-
-
 Um eine Benutzereingabe während einer Sitzung im Controller zu speichern, muss man als erstes beim inputText Formularelement den Value an den controller weitergeben, wo es als String gespeichert wird. 
 
 
@@ -40,12 +37,13 @@ public void setName(String name) {
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+In der zweiten Zeile der XHTML code zist zu sehen, wie der Benutzereingabe an den Controller übergeben wird.
+In der Java Code ist zu sehen, wie dieser Eingabe als String im Controller gespeichert wird.
 
 # Reflektion zum Arbeitsprozess
 
 Gut gegangen ist die Benutzereingaben dem Controller weiterzugeben und diese speichern. 
 
-Nicht gut gelaufen ist es den Session ID auszugeben. 
+Nicht gut gelaufen ist es den Session ID auszugeben, weil ich den entsprechenden Controller falsch aufgerufen habe.
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+**VBV**: Damit ich das nächste Mal nicht Schwierigkeiten bei der Ausgabe der Session IDs kriege, werde ich auf den Syntax beim aufrufen des Controllers achten. 
