@@ -20,6 +20,12 @@ Bei diesem Lernauftrag habe ich gelernt, wie man Benutzereingaben während einer
 * Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
 
 
+```
+            <h:outputLabel for="eingabe" value="Ihr Name: "/> 
+            <h:inputText value="#{helloManagedBean.name}" id="name"/>
+```
+
+
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/112397931/187230011-9f822a45-a830-4700-a16d-0de89ea49e40.gif)
 
