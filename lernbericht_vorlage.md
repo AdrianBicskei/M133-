@@ -3,7 +3,7 @@ Adrian Bicskei
 
 ## Einleitung
 
-Im LA_133_1005_SitzungsVerfolgung ging es darum bei einer Webapplikation mit einer Ablauf von 5 Seiten eine Sitzungsverfolgung mit JSF zu realisieren. 
+Im LA_133_1005_SitzungsVerfolgung ging es darum bei einer Webapplikation mit einem Ablauf von 5 Seiten eine Sitzungsverfolgung mit JSF zu realisieren. 
 
 ## Was habe ich gelernt?
 
@@ -11,7 +11,7 @@ Bei diesem Lernauftrag habe ich gelernt, wie man Benutzereingaben während einer
 
 ## Beschreibung
 
-Um eine Benutzereingabe während einer Sitzung im Controller zu speichern, muss man als erstes beim inputText Formularelement den Value an den controller weitergeben, wo es als String gespeichert wird. 
+Um eine Benutzereingabe während einer Sitzung im Controller zu speichern, muss man als Erstes beim inputText Formularelement den Value an den Controller weitergeben, wo es als String gespeichert wird. 
 
 
 Benutzereingabe durch Formularfeld
@@ -37,13 +37,13 @@ public void setName(String name) {
 
 ## Verifikation
 
-In der zweiten Zeile der XHTML code zist zu sehen, wie der Benutzereingabe an den Controller übergeben wird.
+In der zweiten Zeile der XHTML code ist zu sehen, wie der Benutzereingabe an den Controller übergeben wird.
 In der Java Code ist zu sehen, wie dieser Eingabe als String im Controller gespeichert wird.
 
 # Reflektion zum Arbeitsprozess
 
-Gut gegangen ist die Benutzereingaben dem Controller weiterzugeben und diese speichern. 
+Gut gegangen ist es, die an den Controller weitergegebenen Benutzereingaben zu speichern. 
 
-Nicht gut gelaufen ist es den Session ID auszugeben, weil ich den entsprechenden Controller falsch aufgerufen habe.
+Nicht gut gelaufen ist es aufgrund Syntaxfehler, die Benutzereingaben dem Controller weiterzugeben und diese speichern. 
 
-**VBV**: Damit ich das nächste Mal nicht Schwierigkeiten bei der Ausgabe der Session IDs kriege, werde ich auf den Syntax beim aufrufen des Controllers achten. 
+**VBV**: Damit ich das nächste Mal nicht Schwierigkeiten bei der Weitergabe der Benutzereingaben an den Controller habe, werde ich auf die Syntax besser achten. 
